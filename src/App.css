@@ -13,11 +13,11 @@ body {
 
 .logo {
     text-align: left;
-    height: 100px; 
+    height: 50px; 
 }
 
 .logo img {
-    height: 150px;
+    height: 100px;
 }
 
 .top-search {
@@ -28,6 +28,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     text-align: center;
+    font-size: 13px;
 }
 
 input {
@@ -55,20 +56,21 @@ input:hover {
 .result {
     margin: 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 5px;
     justify-content: center;
+    font-size: 8px;
 }
 
 .not-found{
     color: darkorange;
     width: 350px;
     margin: 100px;
-    margin-left: 650px;
+    margin-left: 400px;
 } 
 
 .meal-item {
-    width: 250px;
+    width: 200px;
     border-radius: 10px;
     overflow: hidden;
     margin: 20px;
@@ -82,7 +84,7 @@ input:hover {
 }
 
 .meal-name {
-    font-size: 17px;
+    font-size: 14px;
 }
 
 .meal-recipe-button {
@@ -94,7 +96,7 @@ input:hover {
     padding: 5px;
     margin: 5px auto 15px;
     border-radius: 20px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .recipe-detail {

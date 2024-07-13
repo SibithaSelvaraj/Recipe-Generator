@@ -69,7 +69,7 @@ function App() {
           <input type="text" placeholder="search here ..." value={search} onChange={handleSearch}></input>
         </div>
         <div className="bottom-search">
-          <h3>Chef's Picks:</h3>
+          <h2>Chef's Picks:</h2>
           <div className="result" id="result">
             { recipe.length > 0 ? (recipe.map((item) => (
               <div className="meal-item" key={item.idMeal}>
